@@ -1,0 +1,68 @@
+13:41:03:560 Using data from: london_merged.csv
+13:41:03:560 Using feature variables: ['Bike Share Count'] to predict target variable: 'Bike Share Count'
+13:41:03:575 Embedding steps in: 5 and steps out: 2
+13:41:03:591 Split dataset with training ratio: 0.7
+13:41:03:591 Split data shapes:
+	 X_train: (12185, 5, 1)
+	 Y_train: (12185, 2)
+	 X_test: (5223, 5, 1)
+	 Y_test: (5223, 2)
+	 k_X: (12185, 7)
+13:41:03:718 Relevance function PCHIPRelevance used with threshold: 0.92
+13:41:03:720 Relevance 11867 common values, 318 relevant values
+13:41:06:694 Training CNN GAN with 11 epochs
+13:42:23:064 Training FNN GAN with 11 epochs
+13:42:25:701 Finished SMOTER_bin resample
+13:42:25:779 Finished GAN_CNN_e0
+13:42:25:892 Finished GAN_CNN_e10
+13:42:25:892 Finished GAN_FNN_e0
+13:42:25:892 Finished GAN_FNN_e10
+13:42:25:905 Finished SMOTER_regular
+13:42:25:921 Resampled sizes: 
++---------------------+----------------+--------------+---------+
+| Resampling Method   |   Num Relevant |   Num Common |   Total |
++=====================+================+==============+=========+
+| SMOTER_bin          |          12137 |        11867 |   24004 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e0          |            337 |        11878 |   12215 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e10         |            318 |        11897 |   12215 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e0          |            325 |        11890 |   12215 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e10         |            327 |        11888 |   12215 |
++---------------------+----------------+--------------+---------+
+| SMOTER_regular      |          12137 |        11867 |   24004 |
++---------------------+----------------+--------------+---------+
+| no_resample         |            318 |        11867 |   12185 |
++---------------------+----------------+--------------+---------+
+13:42:25:958 Starting forecasting experiments with num_exps: 2 and epochs: 1
+13:42:26:193 Starting training on no_resample
+13:42:26:193 	Experiment 1 in progress
+13:42:29:860 	Experiment 2 in progress
+13:42:31:455 Total time for 2 no_resample experiments 5.2623450756073
+13:42:31:564 Starting training on SMOTER_bin
+13:42:31:564 	Experiment 1 in progress
+13:42:36:814 	Experiment 2 in progress
+13:42:39:752 Total time for 2 SMOTER_bin experiments 8.187549352645874
+13:42:39:892 Starting training on GAN_CNN_e0
+13:42:39:894 	Experiment 1 in progress
+13:42:44:225 	Experiment 2 in progress
+13:42:46:122 Total time for 2 GAN_CNN_e0 experiments 6.230566024780273
+13:42:46:263 Starting training on GAN_CNN_e10
+13:42:46:263 	Experiment 1 in progress
+13:42:50:938 	Experiment 2 in progress
+13:42:53:022 Total time for 2 GAN_CNN_e10 experiments 6.758495330810547
+13:42:53:187 Starting training on GAN_FNN_e0
+13:42:53:187 	Experiment 1 in progress
+13:42:56:937 	Experiment 2 in progress
+13:42:58:422 Total time for 2 GAN_FNN_e0 experiments 5.234987497329712
+13:42:58:553 Starting training on GAN_FNN_e10
+13:42:58:555 	Experiment 1 in progress
+13:43:02:871 	Experiment 2 in progress
+13:43:04:799 Total time for 2 GAN_FNN_e10 experiments 6.245736360549927
+13:43:04:932 Starting training on SMOTER_regular
+13:43:04:932 	Experiment 1 in progress
+13:43:09:854 	Experiment 2 in progress
+13:43:12:701 Total time for 2 SMOTER_regular experiments 7.769229888916016
+13:43:29:597 Saving resample results numpy style

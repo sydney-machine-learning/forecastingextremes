@@ -1,0 +1,68 @@
+{
+    "loadedModels": {
+        "GanCnnDir": null,
+        "GanFnnDir": null,
+        "ForecastDir": null
+    },
+    "importingData": {
+        "dataFile": "london_merged.csv",
+        "targetVar": "Bike Share Count",
+        "featVars": [
+            "Bike Share Count"
+        ]
+    },
+    "prepData": {
+        "nStepsIn": 5,
+        "nStepsOut": 2,
+        "splitRatio": 0.7
+    },
+    "relevanceFunc": {
+        "funcName": "PCHIP",
+        "funcParams": {
+            "percentages": [
+                25,
+                50,
+                75,
+                95,
+                99
+            ],
+            "rels": [
+                0.0,
+                0.25,
+                0.5,
+                0.75,
+                1.0
+            ]
+        }
+    },
+    "relevance": {
+        "relThresh": 0.92,
+        "exThresh": 0.4995506218293248
+    },
+    "GAN": {
+        "nEpochs": 11,
+        "batchSize": 128
+    },
+    "SMOTE": {
+        "kNeighbors": 3
+    },
+    "Evaluator": {
+        "RMSE": {},
+        "RMSERare": {},
+        "Utility": {
+            "m": 0.5
+        },
+        "CaseWeight": {
+            "m": 0.5
+        },
+        "PrecisionRecall": {},
+        "FScore": {
+            "beta": 0.5
+        }
+    },
+    "Forecasting": {
+        "NumExp": 2,
+        "nEpochs": 1,
+        "hidden": 10
+    }
+}

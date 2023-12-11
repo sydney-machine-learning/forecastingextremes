@@ -1,0 +1,350 @@
+14:14:30:788 Using data from: london_merged.csv
+14:14:30:789 Using feature variables: ['Bike Share Count'] to predict target variable: 'Bike Share Count'
+14:14:30:798 Embedding steps in: 5 and steps out: 5
+14:14:30:798 Split dataset with training ratio: 0.7
+14:14:30:798 Split data shapes:
+	 X_train: (12183, 5, 1)
+	 Y_train: (12183, 5)
+	 X_test: (5222, 5, 1)
+	 Y_test: (5222, 5)
+	 k_X: (12183, 10)
+14:14:30:820 Relevance function PCHIPRelevance used with threshold: 0.8
+14:14:30:821 Relevance 11655 common values, 528 relevant values
+14:14:31:910 Training CNN GAN with 120 epochs
+14:27:06:348 Training FNN GAN with 120 epochs
+14:27:18:549 Finished SMOTER_bin resample
+14:27:22:176 Finished SMOTER_bin_t resample
+14:27:25:808 Finished SMOTER_bin_r resample
+14:27:29:800 Finished SMOTER_bin_tr resample
+14:28:04:104 Finished GAN_CNN_e0
+14:28:39:834 Finished GAN_CNN_e10
+14:29:16:465 Finished GAN_CNN_e20
+14:29:51:424 Finished GAN_CNN_e30
+14:30:26:578 Finished GAN_CNN_e40
+14:31:01:695 Finished GAN_CNN_e50
+14:31:37:040 Finished GAN_CNN_e60
+14:32:12:286 Finished GAN_CNN_e70
+14:32:48:362 Finished GAN_CNN_e80
+14:33:23:595 Finished GAN_CNN_e90
+14:33:58:796 Finished GAN_CNN_e100
+14:34:34:116 Finished GAN_CNN_e110
+14:34:34:168 Finished GAN_FNN_e0
+14:34:34:215 Finished GAN_FNN_e10
+14:34:34:259 Finished GAN_FNN_e20
+14:34:34:305 Finished GAN_FNN_e30
+14:34:34:360 Finished GAN_FNN_e40
+14:34:34:412 Finished GAN_FNN_e50
+14:34:34:466 Finished GAN_FNN_e60
+14:34:34:514 Finished GAN_FNN_e70
+14:34:34:560 Finished GAN_FNN_e80
+14:34:34:613 Finished GAN_FNN_e90
+14:34:34:655 Finished GAN_FNN_e100
+14:34:34:693 Finished GAN_FNN_e110
+14:34:34:705 Finished SMOTER_regular
+14:34:34:881 Resampled sizes: 
++---------------------+----------------+--------------+---------+
+| Resampling Method   |   Num Relevant |   Num Common |   Total |
++=====================+================+==============+=========+
+| SMOTER_bin          |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_t        |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_r        |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_tr       |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e0          |          11627 |        11656 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e10         |            528 |        22755 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e20         |            528 |        22755 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e30         |            528 |        22755 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e40         |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e50         |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e60         |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e70         |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e80         |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e90         |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e100        |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e110        |          11628 |        11655 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e0          |           7186 |        16097 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e10         |           7031 |        16252 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e20         |           8521 |        14762 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e30         |           9824 |        13459 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e40         |          10502 |        12781 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e50         |          10736 |        12547 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e60         |          10615 |        12668 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e70         |          10105 |        13178 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e80         |           9371 |        13912 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e90         |           9357 |        13926 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e100        |          10135 |        13148 |   23283 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e110        |           9041 |        14242 |   23283 |
++---------------------+----------------+--------------+---------+
+| SMOTER_regular      |          11655 |        11655 |   23310 |
++---------------------+----------------+--------------+---------+
+| no_resample         |            528 |        11655 |   12183 |
++---------------------+----------------+--------------+---------+
+14:43:27:701 Starting forecasting experiments with num_exps: 10 and epochs: 100
+14:43:27:876 Starting LSTM forecaster training on no_resample
+14:43:27:877 	Experiment 1 in progress
+14:44:59:824 	Experiment 2 in progress
+14:46:32:875 	Experiment 3 in progress
+14:48:07:782 	Experiment 4 in progress
+14:49:41:906 	Experiment 5 in progress
+14:51:15:916 	Experiment 6 in progress
+14:52:51:361 	Experiment 7 in progress
+14:54:25:661 	Experiment 8 in progress
+14:56:00:415 	Experiment 9 in progress
+14:57:34:743 	Experiment 10 in progress
+14:59:09:435 Total time for 10 no_resample experiments 941.5584561824799
+14:59:09:486 Starting CNN forecaster training on no_resample
+14:59:09:486 	Experiment 1 in progress
+14:59:30:381 	Experiment 2 in progress
+14:59:50:966 	Experiment 3 in progress
+15:00:11:538 	Experiment 4 in progress
+15:00:32:166 	Experiment 5 in progress
+15:00:52:581 	Experiment 6 in progress
+15:01:13:480 	Experiment 7 in progress
+15:01:33:986 	Experiment 8 in progress
+15:01:54:484 	Experiment 9 in progress
+15:02:15:106 	Experiment 10 in progress
+15:02:36:140 Total time for 10 no_resample experiments 206.65438199043274
+15:02:36:210 Starting LSTM forecaster training on SMOTER_bin
+15:02:36:211 	Experiment 1 in progress
+15:05:39:392 	Experiment 2 in progress
+15:08:41:935 	Experiment 3 in progress
+15:11:45:124 	Experiment 4 in progress
+15:14:49:962 	Experiment 5 in progress
+15:17:53:922 	Experiment 6 in progress
+15:20:57:911 	Experiment 7 in progress
+15:24:01:612 	Experiment 8 in progress
+15:27:05:439 	Experiment 9 in progress
+15:30:09:609 	Experiment 10 in progress
+15:33:14:656 Total time for 10 SMOTER_bin experiments 1838.446319103241
+15:33:14:699 Starting CNN forecaster training on SMOTER_bin
+15:33:14:699 	Experiment 1 in progress
+15:33:54:603 	Experiment 2 in progress
+15:34:34:495 	Experiment 3 in progress
+15:35:14:012 	Experiment 4 in progress
+15:35:53:682 	Experiment 5 in progress
+15:36:33:156 	Experiment 6 in progress
+15:37:12:440 	Experiment 7 in progress
+15:37:52:285 	Experiment 8 in progress
+15:38:32:069 	Experiment 9 in progress
+15:39:11:827 	Experiment 10 in progress
+15:39:51:759 Total time for 10 SMOTER_bin experiments 397.0603404045105
+15:39:51:829 Starting LSTM forecaster training on SMOTER_bin_t
+15:39:51:829 	Experiment 1 in progress
+15:42:56:503 	Experiment 2 in progress
+15:46:00:508 	Experiment 3 in progress
+15:49:05:428 	Experiment 4 in progress
+15:52:09:555 	Experiment 5 in progress
+15:55:13:880 	Experiment 6 in progress
+15:58:18:189 	Experiment 7 in progress
+16:01:23:001 	Experiment 8 in progress
+16:04:27:985 	Experiment 9 in progress
+16:07:32:991 	Experiment 10 in progress
+16:10:37:891 Total time for 10 SMOTER_bin_t experiments 1846.061891078949
+16:10:37:933 Starting CNN forecaster training on SMOTER_bin_t
+16:10:37:934 	Experiment 1 in progress
+16:11:17:929 	Experiment 2 in progress
+16:11:57:912 	Experiment 3 in progress
+16:12:37:862 	Experiment 4 in progress
+16:13:17:671 	Experiment 5 in progress
+16:13:57:425 	Experiment 6 in progress
+16:14:37:253 	Experiment 7 in progress
+16:15:16:778 	Experiment 8 in progress
+16:15:56:596 	Experiment 9 in progress
+16:16:36:328 	Experiment 10 in progress
+16:17:16:292 Total time for 10 SMOTER_bin_t experiments 398.3586769104004
+16:17:16:372 Starting LSTM forecaster training on SMOTER_bin_r
+16:17:16:372 	Experiment 1 in progress
+16:20:24:706 	Experiment 2 in progress
+16:23:31:828 	Experiment 3 in progress
+16:26:39:008 	Experiment 4 in progress
+16:29:46:299 	Experiment 5 in progress
+16:32:53:628 	Experiment 6 in progress
+16:36:00:577 	Experiment 7 in progress
+16:39:08:036 	Experiment 8 in progress
+16:42:15:393 	Experiment 9 in progress
+16:45:22:941 	Experiment 10 in progress
+16:48:31:125 Total time for 10 SMOTER_bin_r experiments 1874.7532994747162
+16:48:31:167 Starting CNN forecaster training on SMOTER_bin_r
+16:48:31:168 	Experiment 1 in progress
+16:49:11:428 	Experiment 2 in progress
+16:49:51:328 	Experiment 3 in progress
+16:50:31:657 	Experiment 4 in progress
+16:51:11:764 	Experiment 5 in progress
+16:51:51:872 	Experiment 6 in progress
+16:52:31:874 	Experiment 7 in progress
+16:53:12:154 	Experiment 8 in progress
+16:53:52:166 	Experiment 9 in progress
+16:54:32:205 	Experiment 10 in progress
+16:55:12:366 Total time for 10 SMOTER_bin_r experiments 401.1988945007324
+16:55:12:444 Starting LSTM forecaster training on SMOTER_bin_tr
+16:55:12:445 	Experiment 1 in progress
+16:58:21:391 	Experiment 2 in progress
+17:01:29:859 	Experiment 3 in progress
+17:04:38:753 	Experiment 4 in progress
+17:07:46:932 	Experiment 5 in progress
+17:10:55:231 	Experiment 6 in progress
+17:14:04:402 	Experiment 7 in progress
+17:17:13:347 	Experiment 8 in progress
+17:20:22:683 	Experiment 9 in progress
+17:23:31:408 	Experiment 10 in progress
+17:26:40:168 Total time for 10 SMOTER_bin_tr experiments 1887.7239582538605
+17:26:40:205 Starting CNN forecaster training on SMOTER_bin_tr
+17:26:40:208 	Experiment 1 in progress
+17:27:19:600 	Experiment 2 in progress
+17:27:58:860 	Experiment 3 in progress
+17:28:38:475 	Experiment 4 in progress
+17:29:18:297 	Experiment 5 in progress
+17:29:58:216 	Experiment 6 in progress
+17:30:38:202 	Experiment 7 in progress
+17:31:18:222 	Experiment 8 in progress
+17:31:58:334 	Experiment 9 in progress
+17:32:39:110 	Experiment 10 in progress
+17:33:19:251 Total time for 10 SMOTER_bin_tr experiments 399.0458171367645
+17:33:19:321 Starting LSTM forecaster training on GAN_CNN_e100
+17:33:19:322 	Experiment 1 in progress
+17:36:27:469 	Experiment 2 in progress
+17:39:36:882 	Experiment 3 in progress
+17:42:44:230 	Experiment 4 in progress
+17:45:51:411 	Experiment 5 in progress
+17:48:52:552 	Experiment 6 in progress
+17:51:50:322 	Experiment 7 in progress
+17:54:48:387 	Experiment 8 in progress
+17:57:45:932 	Experiment 9 in progress
+18:00:44:346 	Experiment 10 in progress
+18:03:42:891 Total time for 10 GAN_CNN_e100 experiments 1823.5692768096924
+18:03:42:932 Starting CNN forecaster training on GAN_CNN_e100
+18:03:42:935 	Experiment 1 in progress
+18:04:21:683 	Experiment 2 in progress
+18:05:00:221 	Experiment 3 in progress
+18:05:38:469 	Experiment 4 in progress
+18:06:16:449 	Experiment 5 in progress
+18:06:54:889 	Experiment 6 in progress
+18:07:33:164 	Experiment 7 in progress
+18:08:11:902 	Experiment 8 in progress
+18:08:50:072 	Experiment 9 in progress
+18:09:28:660 	Experiment 10 in progress
+18:10:07:103 Total time for 10 GAN_CNN_e100 experiments 384.1709132194519
+18:10:07:173 Starting LSTM forecaster training on GAN_CNN_e110
+18:10:07:174 	Experiment 1 in progress
+18:13:07:730 	Experiment 2 in progress
+18:16:07:129 	Experiment 3 in progress
+18:19:06:731 	Experiment 4 in progress
+18:22:06:277 	Experiment 5 in progress
+18:25:05:664 	Experiment 6 in progress
+18:28:04:885 	Experiment 7 in progress
+18:31:04:160 	Experiment 8 in progress
+18:34:03:884 	Experiment 9 in progress
+18:37:02:806 	Experiment 10 in progress
+18:40:01:948 Total time for 10 GAN_CNN_e110 experiments 1794.7749502658844
+18:40:01:991 Starting CNN forecaster training on GAN_CNN_e110
+18:40:01:992 	Experiment 1 in progress
+18:40:39:891 	Experiment 2 in progress
+18:41:17:467 	Experiment 3 in progress
+18:41:54:930 	Experiment 4 in progress
+18:42:32:723 	Experiment 5 in progress
+18:43:11:115 	Experiment 6 in progress
+18:43:52:074 	Experiment 7 in progress
+19:47:42:111 	Experiment 8 in progress
+19:48:20:635 	Experiment 9 in progress
+19:48:59:035 	Experiment 10 in progress
+19:49:37:385 Total time for 10 GAN_CNN_e110 experiments 4175.393799304962
+19:49:37:460 Starting LSTM forecaster training on GAN_FNN_e100
+19:49:37:460 	Experiment 1 in progress
+19:52:34:492 	Experiment 2 in progress
+19:55:32:949 	Experiment 3 in progress
+19:58:35:196 	Experiment 4 in progress
+20:01:37:467 	Experiment 5 in progress
+20:04:42:320 	Experiment 6 in progress
+20:07:48:411 	Experiment 7 in progress
+20:10:54:576 	Experiment 8 in progress
+20:14:00:447 	Experiment 9 in progress
+20:17:06:281 	Experiment 10 in progress
+20:20:13:060 Total time for 10 GAN_FNN_e100 experiments 1835.5994822978973
+20:20:13:098 Starting CNN forecaster training on GAN_FNN_e100
+20:20:13:099 	Experiment 1 in progress
+20:20:52:621 	Experiment 2 in progress
+20:21:31:912 	Experiment 3 in progress
+20:22:11:432 	Experiment 4 in progress
+20:22:50:658 	Experiment 5 in progress
+20:23:29:682 	Experiment 6 in progress
+20:24:08:884 	Experiment 7 in progress
+20:24:48:964 	Experiment 8 in progress
+20:25:28:956 	Experiment 9 in progress
+20:26:08:891 	Experiment 10 in progress
+20:26:48:671 Total time for 10 GAN_FNN_e100 experiments 395.5729968547821
+20:26:48:744 Starting LSTM forecaster training on GAN_FNN_e110
+20:26:48:745 	Experiment 1 in progress
+20:29:57:887 	Experiment 2 in progress
+20:33:06:160 	Experiment 3 in progress
+20:36:14:782 	Experiment 4 in progress
+20:39:23:362 	Experiment 5 in progress
+20:42:31:889 	Experiment 6 in progress
+20:45:39:998 	Experiment 7 in progress
+20:48:48:381 	Experiment 8 in progress
+20:51:57:127 	Experiment 9 in progress
+20:55:05:496 	Experiment 10 in progress
+20:58:13:885 Total time for 10 GAN_FNN_e110 experiments 1885.1416990756989
+20:58:13:929 Starting CNN forecaster training on GAN_FNN_e110
+20:58:13:929 	Experiment 1 in progress
+20:58:54:437 	Experiment 2 in progress
+20:59:34:587 	Experiment 3 in progress
+21:00:14:722 	Experiment 4 in progress
+21:00:54:909 	Experiment 5 in progress
+21:01:34:897 	Experiment 6 in progress
+21:02:15:167 	Experiment 7 in progress
+21:02:54:949 	Experiment 8 in progress
+21:03:35:113 	Experiment 9 in progress
+21:04:17:593 	Experiment 10 in progress
+21:05:00:294 Total time for 10 GAN_FNN_e110 experiments 406.36561155319214
+21:05:00:368 Starting LSTM forecaster training on SMOTER_regular
+21:05:00:368 	Experiment 1 in progress
+21:08:13:778 	Experiment 2 in progress
+21:11:21:979 	Experiment 3 in progress
+21:14:30:293 	Experiment 4 in progress
+21:17:38:514 	Experiment 5 in progress
+21:20:46:972 	Experiment 6 in progress
+21:23:55:377 	Experiment 7 in progress
+21:27:04:088 	Experiment 8 in progress
+21:30:12:053 	Experiment 9 in progress
+21:33:20:397 	Experiment 10 in progress
+21:36:28:508 Total time for 10 SMOTER_regular experiments 1888.1404283046722
+21:36:28:553 Starting CNN forecaster training on SMOTER_regular
+21:36:28:553 	Experiment 1 in progress
+21:37:09:332 	Experiment 2 in progress
+21:37:49:867 	Experiment 3 in progress
+21:38:30:154 	Experiment 4 in progress
+21:39:10:136 	Experiment 5 in progress
+21:39:50:446 	Experiment 6 in progress
+21:40:30:600 	Experiment 7 in progress
+21:41:10:736 	Experiment 8 in progress
+21:41:51:056 	Experiment 9 in progress
+21:42:31:336 	Experiment 10 in progress
+21:43:11:521 Total time for 10 SMOTER_regular experiments 402.9683372974396
+21:43:57:589 Saving resample results numpy style
+21:43:58:273 Saving resample results numpy style

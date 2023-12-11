@@ -1,0 +1,634 @@
+18:56:50:625 Using data from: london_merged.csv
+18:56:50:630 Using feature variables: ['Bike Share Count'] to predict target variable: 'Bike Share Count'
+18:56:50:637 Embedding steps in: 5 and steps out: 5
+18:56:50:637 Split dataset with training ratio: 0.7
+18:56:50:637 Split data shapes:
+	 X_train: (12183, 5, 1)
+	 Y_train: (12183, 5)
+	 X_test: (5222, 5, 1)
+	 Y_test: (5222, 5)
+	 k_X: (12183, 10)
+18:56:50:675 Relevance function PCHIPRelevance used with threshold: 0.75
+18:56:50:675 Relevance 11573 common values, 610 relevant values
+18:56:52:388 Training CNN GAN with 100 epochs
+19:17:06:515 Training FNN GAN with 100 epochs
+19:17:22:477 Finished SMOTER_bin resample
+19:17:24:923 Finished SMOTER_bin_t resample
+19:17:27:382 Finished SMOTER_bin_r resample
+19:17:30:081 Finished SMOTER_bin_tr resample
+19:18:20:224 Finished GAN_CNN_e0
+19:19:05:170 Finished GAN_CNN_e10
+19:19:50:654 Finished GAN_CNN_e20
+19:20:36:297 Finished GAN_CNN_e30
+19:21:20:602 Finished GAN_CNN_e40
+19:22:05:506 Finished GAN_CNN_e50
+19:22:49:768 Finished GAN_CNN_e60
+19:23:34:191 Finished GAN_CNN_e70
+19:24:17:254 Finished GAN_CNN_e80
+19:25:02:364 Finished GAN_CNN_e90
+19:25:02:474 Finished GAN_FNN_e0
+19:25:02:553 Finished GAN_FNN_e10
+19:25:02:637 Finished GAN_FNN_e20
+19:25:02:730 Finished GAN_FNN_e30
+19:25:02:793 Finished GAN_FNN_e40
+19:25:02:899 Finished GAN_FNN_e50
+19:25:02:967 Finished GAN_FNN_e60
+19:25:03:031 Finished GAN_FNN_e70
+19:25:03:136 Finished GAN_FNN_e80
+19:25:03:202 Finished GAN_FNN_e90
+19:25:03:218 Finished SMOTER_regular
+19:25:03:467 Resampled sizes: 
++---------------------+----------------+--------------+---------+
+| Resampling Method   |   Num Relevant |   Num Common |   Total |
++=====================+================+==============+=========+
+| SMOTER_bin          |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_t        |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_r        |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_tr       |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e0          |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e10         |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e20         |           1205 |        22282 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e30         |            610 |        22877 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e40         |            610 |        22877 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e50         |            610 |        22877 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e60         |            610 |        22877 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e70         |            610 |        22877 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e80         |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e90         |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e0          |           8957 |        14530 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e10         |           9936 |        13551 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e20         |          10665 |        12822 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e30         |          11188 |        12299 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e40         |          11551 |        11936 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e50         |          11707 |        11780 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e60         |          11736 |        11751 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e70         |          11600 |        11887 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e80         |          10894 |        12593 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e90         |           9341 |        14146 |   23487 |
++---------------------+----------------+--------------+---------+
+| SMOTER_regular      |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| no_resample         |            610 |        11573 |   12183 |
++---------------------+----------------+--------------+---------+
+19:25:38:459 Starting forecasting experiments with num_exps: 2 and epochs: 1
+19:25:38:664 Starting training on no_resample
+19:25:38:666 	Experiment 1 in progress
+19:25:43:181 	Experiment 2 in progress
+19:25:45:247 Total time for 2 no_resample experiments 6.582360029220581
+19:25:45:369 Starting training on SMOTER_bin
+19:25:45:370 	Experiment 1 in progress
+19:25:51:068 	Experiment 2 in progress
+19:25:54:639 Total time for 2 SMOTER_bin experiments 9.27062702178955
+19:25:54:761 Starting training on SMOTER_bin_t
+19:25:54:764 	Experiment 1 in progress
+19:26:00:372 	Experiment 2 in progress
+19:26:04:343 Total time for 2 SMOTER_bin_t experiments 9.581579208374023
+19:26:04:451 Starting training on SMOTER_bin_r
+19:26:04:454 	Experiment 1 in progress
+19:26:10:091 	Experiment 2 in progress
+19:26:14:082 Total time for 2 SMOTER_bin_r experiments 9.631174087524414
+19:26:14:202 Starting training on SMOTER_bin_tr
+19:26:14:203 	Experiment 1 in progress
+19:26:20:217 	Experiment 2 in progress
+19:26:24:191 Total time for 2 SMOTER_bin_tr experiments 9.988868236541748
+19:26:24:301 Starting training on GAN_CNN_e0
+19:26:24:301 	Experiment 1 in progress
+19:26:29:990 	Experiment 2 in progress
+19:26:33:976 Total time for 2 GAN_CNN_e0 experiments 9.674985647201538
+19:26:34:086 Starting training on GAN_CNN_e10
+19:26:34:088 	Experiment 1 in progress
+19:26:39:654 	Experiment 2 in progress
+19:26:43:568 Total time for 2 GAN_CNN_e10 experiments 9.481834650039673
+19:26:43:688 Starting training on GAN_CNN_e20
+19:26:43:689 	Experiment 1 in progress
+19:26:49:276 	Experiment 2 in progress
+19:26:53:404 Total time for 2 GAN_CNN_e20 experiments 9.716378688812256
+19:26:53:536 Starting training on GAN_CNN_e30
+19:26:53:536 	Experiment 1 in progress
+19:26:59:512 	Experiment 2 in progress
+19:27:03:850 Total time for 2 GAN_CNN_e30 experiments 10.313698530197144
+19:27:03:961 Starting training on GAN_CNN_e40
+19:27:03:961 	Experiment 1 in progress
+19:27:09:605 	Experiment 2 in progress
+19:27:13:859 Total time for 2 GAN_CNN_e40 experiments 9.8980131149292
+19:27:13:981 Starting training on GAN_CNN_e50
+19:27:13:983 	Experiment 1 in progress
+19:27:19:664 	Experiment 2 in progress
+19:27:23:609 Total time for 2 GAN_CNN_e50 experiments 9.628270626068115
+19:27:23:732 Starting training on GAN_CNN_e60
+19:27:23:732 	Experiment 1 in progress
+19:27:29:406 	Experiment 2 in progress
+19:27:33:394 Total time for 2 GAN_CNN_e60 experiments 9.662668704986572
+19:27:33:518 Starting training on GAN_CNN_e70
+19:27:33:520 	Experiment 1 in progress
+19:27:39:207 	Experiment 2 in progress
+19:27:43:175 Total time for 2 GAN_CNN_e70 experiments 9.656938791275024
+19:27:43:295 Starting training on GAN_CNN_e80
+19:27:43:296 	Experiment 1 in progress
+19:27:48:966 	Experiment 2 in progress
+19:27:52:909 Total time for 2 GAN_CNN_e80 experiments 9.614083051681519
+19:27:53:016 Starting training on GAN_CNN_e90
+19:27:53:016 	Experiment 1 in progress
+19:27:59:147 	Experiment 2 in progress
+19:28:03:148 Total time for 2 GAN_CNN_e90 experiments 10.132194757461548
+19:28:03:265 Starting training on GAN_FNN_e0
+19:28:03:267 	Experiment 1 in progress
+19:28:09:020 	Experiment 2 in progress
+19:28:13:015 Total time for 2 GAN_FNN_e0 experiments 9.749905824661255
+19:28:13:127 Starting training on GAN_FNN_e10
+19:28:13:129 	Experiment 1 in progress
+19:28:18:842 	Experiment 2 in progress
+19:28:22:845 Total time for 2 GAN_FNN_e10 experiments 9.717684984207153
+19:28:22:956 Starting training on GAN_FNN_e20
+19:28:22:956 	Experiment 1 in progress
+19:28:28:698 	Experiment 2 in progress
+19:28:32:698 Total time for 2 GAN_FNN_e20 experiments 9.74203634262085
+19:28:32:806 Starting training on GAN_FNN_e30
+19:28:32:807 	Experiment 1 in progress
+19:28:38:897 	Experiment 2 in progress
+19:28:43:268 Total time for 2 GAN_FNN_e30 experiments 10.461219310760498
+19:28:43:393 Starting training on GAN_FNN_e40
+19:28:43:393 	Experiment 1 in progress
+19:28:49:704 	Experiment 2 in progress
+19:28:53:692 Total time for 2 GAN_FNN_e40 experiments 10.298558712005615
+19:28:53:808 Starting training on GAN_FNN_e50
+19:28:53:810 	Experiment 1 in progress
+19:29:00:332 	Experiment 2 in progress
+19:29:04:503 Total time for 2 GAN_FNN_e50 experiments 10.69434905052185
+19:29:04:615 Starting training on GAN_FNN_e60
+19:29:04:617 	Experiment 1 in progress
+19:29:10:326 	Experiment 2 in progress
+19:29:14:378 Total time for 2 GAN_FNN_e60 experiments 9.763772964477539
+19:29:14:497 Starting training on GAN_FNN_e70
+19:29:14:497 	Experiment 1 in progress
+19:29:20:689 	Experiment 2 in progress
+19:29:25:217 Total time for 2 GAN_FNN_e70 experiments 10.720325708389282
+19:29:25:352 Starting training on GAN_FNN_e80
+19:29:25:352 	Experiment 1 in progress
+19:29:31:536 	Experiment 2 in progress
+19:29:35:600 Total time for 2 GAN_FNN_e80 experiments 10.247848749160767
+19:29:35:719 Starting training on GAN_FNN_e90
+19:29:35:720 	Experiment 1 in progress
+19:29:41:652 	Experiment 2 in progress
+19:29:45:745 Total time for 2 GAN_FNN_e90 experiments 10.025588035583496
+19:29:45:872 Starting training on SMOTER_regular
+19:29:45:872 	Experiment 1 in progress
+19:29:51:442 	Experiment 2 in progress
+19:29:55:571 Total time for 2 SMOTER_regular experiments 9.699157953262329
+19:34:56:950 Starting forecasting experiments with num_exps: 2 and epochs: 100
+19:34:57:109 Starting training on no_resample
+19:34:57:110 	Experiment 1 in progress
+19:36:36:754 	Experiment 2 in progress
+19:38:12:670 Total time for 2 no_resample experiments 195.56108331680298
+19:38:12:801 Starting training on SMOTER_bin
+19:38:12:802 	Experiment 1 in progress
+19:41:20:570 	Experiment 2 in progress
+19:44:23:636 Total time for 2 SMOTER_bin experiments 370.8350281715393
+19:44:23:750 Starting training on SMOTER_bin_t
+19:44:23:751 	Experiment 1 in progress
+19:47:36:662 	Experiment 2 in progress
+19:50:39:304 Starting forecasting experiments with num_exps: 2 and epochs: 30
+19:50:39:444 Starting training on no_resample
+19:50:39:445 	Experiment 1 in progress
+19:51:09:391 	Experiment 2 in progress
+19:51:39:008 Total time for 2 no_resample experiments 59.563328981399536
+19:51:39:138 Starting training on SMOTER_bin
+19:51:39:139 	Experiment 1 in progress
+19:52:36:727 	Experiment 2 in progress
+19:53:33:936 Total time for 2 SMOTER_bin experiments 114.7973325252533
+19:53:34:044 Starting training on SMOTER_bin_t
+19:53:34:045 	Experiment 1 in progress
+19:54:34:662 	Experiment 2 in progress
+19:55:33:070 Total time for 2 SMOTER_bin_t experiments 119.02676248550415
+19:55:33:186 Starting training on SMOTER_bin_r
+19:55:33:186 	Experiment 1 in progress
+19:56:32:680 	Experiment 2 in progress
+19:57:30:455 Total time for 2 SMOTER_bin_r experiments 117.26944351196289
+19:57:30:575 Starting training on SMOTER_bin_tr
+19:57:30:577 	Experiment 1 in progress
+19:58:32:082 	Experiment 2 in progress
+19:59:32:226 Total time for 2 SMOTER_bin_tr experiments 121.65095663070679
+19:59:32:351 Starting training on GAN_CNN_e0
+19:59:32:354 	Experiment 1 in progress
+20:00:32:573 	Experiment 2 in progress
+20:01:31:646 Total time for 2 GAN_CNN_e0 experiments 119.29529571533203
+20:01:31:762 Starting training on GAN_CNN_e10
+20:01:31:762 	Experiment 1 in progress
+20:02:32:154 	Experiment 2 in progress
+20:03:30:227 Total time for 2 GAN_CNN_e10 experiments 118.46503376960754
+20:03:30:348 Starting training on GAN_CNN_e20
+20:03:30:348 	Experiment 1 in progress
+20:04:26:872 	Experiment 2 in progress
+20:05:24:212 Total time for 2 GAN_CNN_e20 experiments 113.8633222579956
+20:05:24:333 Starting training on GAN_CNN_e30
+20:05:24:334 	Experiment 1 in progress
+20:06:20:778 	Experiment 2 in progress
+20:07:17:324 Total time for 2 GAN_CNN_e30 experiments 112.99059987068176
+20:07:17:459 Starting training on GAN_CNN_e40
+20:07:17:460 	Experiment 1 in progress
+20:08:14:247 	Experiment 2 in progress
+20:09:10:104 Total time for 2 GAN_CNN_e40 experiments 112.64505624771118
+20:09:10:235 Starting training on GAN_CNN_e50
+20:09:10:236 	Experiment 1 in progress
+20:10:07:243 	Experiment 2 in progress
+20:11:03:449 Total time for 2 GAN_CNN_e50 experiments 113.2138729095459
+20:11:03:565 Starting training on GAN_CNN_e60
+20:11:03:565 	Experiment 1 in progress
+20:11:59:322 	Experiment 2 in progress
+20:12:54:038 Total time for 2 GAN_CNN_e60 experiments 110.47345066070557
+20:12:54:146 Starting training on GAN_CNN_e70
+20:12:54:148 	Experiment 1 in progress
+20:13:50:478 	Experiment 2 in progress
+20:14:44:253 Total time for 2 GAN_CNN_e70 experiments 110.10653924942017
+20:14:44:374 Starting training on GAN_CNN_e80
+20:14:44:375 	Experiment 1 in progress
+20:15:42:979 	Experiment 2 in progress
+20:16:38:612 Total time for 2 GAN_CNN_e80 experiments 114.23751759529114
+20:16:38:731 Starting training on GAN_CNN_e90
+20:16:38:733 	Experiment 1 in progress
+20:17:35:359 	Experiment 2 in progress
+20:18:30:478 Total time for 2 GAN_CNN_e90 experiments 111.74651145935059
+20:18:30:595 Starting training on GAN_FNN_e0
+20:18:30:595 	Experiment 1 in progress
+20:19:27:936 	Experiment 2 in progress
+20:20:22:458 Total time for 2 GAN_FNN_e0 experiments 111.8635904788971
+20:20:22:571 Starting training on GAN_FNN_e10
+20:20:22:574 	Experiment 1 in progress
+20:21:18:771 	Experiment 2 in progress
+20:22:15:282 Total time for 2 GAN_FNN_e10 experiments 112.71066355705261
+20:22:15:406 Starting training on GAN_FNN_e20
+20:22:15:408 	Experiment 1 in progress
+20:23:11:611 	Experiment 2 in progress
+20:24:05:881 Total time for 2 GAN_FNN_e20 experiments 110.47455310821533
+20:24:05:996 Starting training on GAN_FNN_e30
+20:24:05:996 	Experiment 1 in progress
+20:25:02:687 	Experiment 2 in progress
+20:25:59:745 Total time for 2 GAN_FNN_e30 experiments 113.74899959564209
+20:25:59:854 Starting training on GAN_FNN_e40
+20:25:59:856 	Experiment 1 in progress
+20:26:58:689 	Experiment 2 in progress
+20:27:55:709 Total time for 2 GAN_FNN_e40 experiments 115.85436177253723
+20:27:55:837 Starting training on GAN_FNN_e50
+20:27:55:838 	Experiment 1 in progress
+20:28:53:205 	Experiment 2 in progress
+20:29:50:057 Total time for 2 GAN_FNN_e50 experiments 114.22025775909424
+20:29:50:185 Starting training on GAN_FNN_e60
+20:29:50:188 	Experiment 1 in progress
+20:30:48:917 	Experiment 2 in progress
+20:31:45:647 Total time for 2 GAN_FNN_e60 experiments 115.4619996547699
+20:31:45:771 Starting training on GAN_FNN_e70
+20:31:45:771 	Experiment 1 in progress
+20:32:44:282 	Experiment 2 in progress
+20:33:41:496 Total time for 2 GAN_FNN_e70 experiments 115.72451567649841
+20:33:41:615 Starting training on GAN_FNN_e80
+20:33:41:616 	Experiment 1 in progress
+20:34:39:462 	Experiment 2 in progress
+20:35:37:055 Total time for 2 GAN_FNN_e80 experiments 115.43954944610596
+20:35:37:170 Starting training on GAN_FNN_e90
+20:35:37:170 	Experiment 1 in progress
+20:36:35:853 	Experiment 2 in progress
+20:37:32:869 Total time for 2 GAN_FNN_e90 experiments 115.69848775863647
+20:37:32:976 Starting training on SMOTER_regular
+20:37:32:978 	Experiment 1 in progress
+20:38:33:097 	Experiment 2 in progress
+20:39:30:533 Total time for 2 SMOTER_regular experiments 117.5567135810852
+22:30:24:957 Relevance function PCHIPRelevance used with threshold: 0.99
+22:30:24:957 Relevance 12010 common values, 173 relevant values
+22:44:14:139 Relevance function PCHIPRelevance used with threshold: 0.75
+22:44:14:140 Relevance 11573 common values, 610 relevant values
+22:45:49:752 Starting forecasting experiments with num_exps: 10 and epochs: 100
+22:45:49:872 Starting training on no_resample
+22:45:49:874 	Experiment 1 in progress
+22:50:13:984 	Experiment 2 in progress
+22:54:45:672 	Experiment 3 in progress
+22:59:14:992 	Experiment 4 in progress
+23:03:43:124 	Experiment 5 in progress
+23:08:15:297 	Experiment 6 in progress
+23:12:43:532 	Experiment 7 in progress
+23:17:16:292 	Experiment 8 in progress
+23:21:48:430 	Experiment 9 in progress
+23:26:16:398 	Experiment 10 in progress
+23:30:43:396 Total time for 10 no_resample experiments 2693.5239119529724
+23:30:43:506 Starting training on SMOTER_bin
+23:30:43:506 	Experiment 1 in progress
+23:39:05:348 	Experiment 2 in progress
+23:47:25:496 	Experiment 3 in progress
+23:55:47:986 	Experiment 4 in progress
+00:04:07:730 	Experiment 5 in progress
+00:12:37:756 	Experiment 6 in progress
+00:21:09:733 	Experiment 7 in progress
+00:29:35:914 	Experiment 8 in progress
+00:37:55:723 	Experiment 9 in progress
+00:46:26:812 	Experiment 10 in progress
+00:55:03:369 Total time for 10 SMOTER_bin experiments 5059.862637519836
+00:55:03:492 Starting training on SMOTER_bin_t
+00:55:03:494 	Experiment 1 in progress
+01:03:35:941 	Experiment 2 in progress
+01:12:21:005 	Experiment 3 in progress
+01:21:02:055 	Experiment 4 in progress
+01:29:39:237 	Experiment 5 in progress
+01:38:26:616 	Experiment 6 in progress
+01:47:16:838 	Experiment 7 in progress
+01:56:06:791 	Experiment 8 in progress
+02:04:46:482 	Experiment 9 in progress
+02:13:21:767 	Experiment 10 in progress
+02:21:58:483 Total time for 10 SMOTER_bin_t experiments 5214.990885972977
+02:21:58:608 Starting training on SMOTER_bin_r
+02:21:58:608 	Experiment 1 in progress
+02:30:27:025 	Experiment 2 in progress
+02:38:57:693 	Experiment 3 in progress
+02:47:26:798 	Experiment 4 in progress
+02:55:58:657 	Experiment 5 in progress
+03:04:26:991 	Experiment 6 in progress
+03:12:58:109 	Experiment 7 in progress
+03:21:29:068 	Experiment 8 in progress
+03:29:58:956 	Experiment 9 in progress
+03:38:29:820 	Experiment 10 in progress
+03:47:00:937 Total time for 10 SMOTER_bin_r experiments 5102.328171014786
+03:47:01:062 Starting training on SMOTER_bin_tr
+03:47:01:062 	Experiment 1 in progress
+03:55:30:185 	Experiment 2 in progress
+04:03:54:803 	Experiment 3 in progress
+04:12:20:072 	Experiment 4 in progress
+04:20:46:456 	Experiment 5 in progress
+04:29:14:806 	Experiment 6 in progress
+04:37:43:731 	Experiment 7 in progress
+04:46:10:206 	Experiment 8 in progress
+04:54:37:025 	Experiment 9 in progress
+05:03:01:840 	Experiment 10 in progress
+05:11:29:207 Total time for 10 SMOTER_bin_tr experiments 5068.145053863525
+05:11:29:312 Starting training on GAN_CNN_e0
+05:11:29:312 	Experiment 1 in progress
+05:19:47:583 	Experiment 2 in progress
+05:28:04:827 	Experiment 3 in progress
+05:36:23:574 	Experiment 4 in progress
+05:44:41:076 	Experiment 5 in progress
+05:53:08:012 	Experiment 6 in progress
+06:01:24:638 	Experiment 7 in progress
+06:09:43:498 	Experiment 8 in progress
+06:18:01:893 	Experiment 9 in progress
+06:26:26:964 	Experiment 10 in progress
+06:34:44:955 Total time for 10 GAN_CNN_e0 experiments 4995.64316534996
+06:34:45:080 Starting training on GAN_CNN_e10
+06:34:45:080 	Experiment 1 in progress
+06:42:59:963 	Experiment 2 in progress
+06:51:14:546 	Experiment 3 in progress
+06:59:27:862 	Experiment 4 in progress
+07:07:40:957 	Experiment 5 in progress
+07:15:53:099 	Experiment 6 in progress
+07:24:06:213 	Experiment 7 in progress
+07:32:20:711 	Experiment 8 in progress
+07:40:35:112 	Experiment 9 in progress
+07:48:48:904 	Experiment 10 in progress
+07:57:00:815 Total time for 10 GAN_CNN_e10 experiments 4935.734760761261
+07:57:00:925 Starting training on GAN_CNN_e20
+07:57:00:925 	Experiment 1 in progress
+08:05:18:132 	Experiment 2 in progress
+08:13:26:830 	Experiment 3 in progress
+08:21:37:521 	Experiment 4 in progress
+08:29:46:345 	Experiment 5 in progress
+08:37:57:086 	Experiment 6 in progress
+08:46:06:007 	Experiment 7 in progress
+08:54:17:118 	Experiment 8 in progress
+09:02:25:309 	Experiment 9 in progress
+09:10:48:443 	Experiment 10 in progress
+09:19:04:673 Total time for 10 GAN_CNN_e20 experiments 4923.7480227947235
+09:19:04:801 Starting training on GAN_CNN_e30
+09:19:04:803 	Experiment 1 in progress
+09:27:06:797 	Experiment 2 in progress
+09:35:06:041 	Experiment 3 in progress
+09:43:06:591 	Experiment 4 in progress
+09:51:07:944 	Experiment 5 in progress
+09:59:38:569 	Experiment 6 in progress
+10:07:55:117 	Experiment 7 in progress
+10:16:04:604 	Experiment 8 in progress
+10:24:09:396 	Experiment 9 in progress
+10:32:11:572 	Experiment 10 in progress
+10:40:13:836 Total time for 10 GAN_CNN_e30 experiments 4869.034977674484
+10:40:13:945 Starting training on GAN_CNN_e40
+10:40:13:945 	Experiment 1 in progress
+10:48:08:278 	Experiment 2 in progress
+10:56:01:853 	Experiment 3 in progress
+11:03:53:321 	Experiment 4 in progress
+11:11:44:266 	Experiment 5 in progress
+11:19:37:594 	Experiment 6 in progress
+11:27:31:397 	Experiment 7 in progress
+11:35:23:551 	Experiment 8 in progress
+11:43:16:402 	Experiment 9 in progress
+11:51:14:905 	Experiment 10 in progress
+11:59:07:282 Total time for 10 GAN_CNN_e40 experiments 4733.337297916412
+11:59:07:392 Starting training on GAN_CNN_e50
+11:59:07:392 	Experiment 1 in progress
+12:06:58:362 	Experiment 2 in progress
+12:14:46:433 	Experiment 3 in progress
+12:22:36:945 	Experiment 4 in progress
+12:30:25:495 	Experiment 5 in progress
+12:38:25:631 	Experiment 6 in progress
+12:46:13:348 	Experiment 7 in progress
+12:54:06:915 	Experiment 8 in progress
+13:01:55:632 	Experiment 9 in progress
+13:09:46:971 	Experiment 10 in progress
+13:17:34:447 Total time for 10 GAN_CNN_e50 experiments 4707.054840326309
+13:17:34:557 Starting training on GAN_CNN_e60
+13:17:34:557 	Experiment 1 in progress
+13:25:18:202 	Experiment 2 in progress
+13:32:59:458 	Experiment 3 in progress
+13:40:40:416 	Experiment 4 in progress
+13:48:24:816 	Experiment 5 in progress
+13:56:09:391 	Experiment 6 in progress
+14:03:52:344 	Experiment 7 in progress
+14:11:35:781 	Experiment 8 in progress
+14:20:06:563 	Experiment 9 in progress
+14:27:49:589 	Experiment 10 in progress
+14:35:33:395 Total time for 10 GAN_CNN_e60 experiments 4678.83793258667
+14:35:33:489 Starting training on GAN_CNN_e70
+14:35:33:505 	Experiment 1 in progress
+14:43:13:198 	Experiment 2 in progress
+14:50:52:095 	Experiment 3 in progress
+14:58:33:586 	Experiment 4 in progress
+15:06:12:872 	Experiment 5 in progress
+15:13:58:161 	Experiment 6 in progress
+15:21:48:011 	Experiment 7 in progress
+15:29:37:688 	Experiment 8 in progress
+15:37:28:618 	Experiment 9 in progress
+15:45:16:966 	Experiment 10 in progress
+15:53:08:246 Total time for 10 GAN_CNN_e70 experiments 4654.757264614105
+15:53:08:387 Starting training on GAN_CNN_e80
+15:53:08:387 	Experiment 1 in progress
+16:01:16:020 	Experiment 2 in progress
+16:09:21:125 	Experiment 3 in progress
+16:17:25:834 	Experiment 4 in progress
+16:25:35:768 	Experiment 5 in progress
+16:33:40:672 	Experiment 6 in progress
+16:41:59:121 	Experiment 7 in progress
+16:50:11:196 	Experiment 8 in progress
+16:58:19:342 	Experiment 9 in progress
+17:06:24:302 	Experiment 10 in progress
+17:14:28:866 Total time for 10 GAN_CNN_e80 experiments 4880.478317260742
+17:14:28:975 Starting training on GAN_CNN_e90
+17:14:28:975 	Experiment 1 in progress
+17:23:16:043 	Experiment 2 in progress
+17:31:59:499 	Experiment 3 in progress
+17:40:51:589 	Experiment 4 in progress
+17:49:45:856 	Experiment 5 in progress
+17:58:34:146 	Experiment 6 in progress
+18:07:23:267 	Experiment 7 in progress
+18:16:06:258 	Experiment 8 in progress
+18:24:51:241 	Experiment 9 in progress
+18:33:32:807 	Experiment 10 in progress
+18:42:17:589 Total time for 10 GAN_CNN_e90 experiments 5268.613605260849
+18:42:17:730 Starting training on GAN_FNN_e0
+18:42:17:730 	Experiment 1 in progress
+18:51:21:905 	Experiment 2 in progress
+19:00:23:273 	Experiment 3 in progress
+19:09:27:066 	Experiment 4 in progress
+19:18:24:949 	Experiment 5 in progress
+19:27:20:547 	Experiment 6 in progress
+19:36:20:361 	Experiment 7 in progress
+19:45:31:879 	Experiment 8 in progress
+19:54:37:539 	Experiment 9 in progress
+20:03:36:570 	Experiment 10 in progress
+20:12:36:006 Total time for 10 GAN_FNN_e0 experiments 5418.27619767189
+20:12:36:132 Starting training on GAN_FNN_e10
+20:12:36:132 	Experiment 1 in progress
+20:21:45:243 	Experiment 2 in progress
+20:30:48:540 	Experiment 3 in progress
+20:40:28:993 	Experiment 4 in progress
+20:50:05:685 	Experiment 5 in progress
+20:59:47:258 	Experiment 6 in progress
+21:10:28:516 	Experiment 7 in progress
+21:20:34:571 	Experiment 8 in progress
+21:30:22:571 	Experiment 9 in progress
+21:40:11:053 	Experiment 10 in progress
+21:49:59:765 Total time for 10 GAN_FNN_e10 experiments 5843.63311290741
+21:49:59:958 Starting training on GAN_FNN_e20
+21:49:59:960 	Experiment 1 in progress
+21:59:51:103 	Experiment 2 in progress
+22:09:35:492 	Experiment 3 in progress
+22:19:26:077 	Experiment 4 in progress
+22:29:32:224 	Experiment 5 in progress
+22:39:39:523 	Experiment 6 in progress
+22:49:02:904 	Experiment 7 in progress
+22:58:30:496 	Experiment 8 in progress
+23:07:54:400 	Experiment 9 in progress
+23:17:13:655 	Experiment 10 in progress
+23:26:43:513 Total time for 10 GAN_FNN_e20 experiments 5803.555267333984
+23:26:43:694 Starting training on GAN_FNN_e30
+23:26:43:696 	Experiment 1 in progress
+10:54:47:570 	Experiment 2 in progress
+11:05:14:588 	Experiment 3 in progress
+11:14:42:755 	Experiment 4 in progress
+11:24:59:894 	Experiment 5 in progress
+11:35:20:819 	Experiment 6 in progress
+11:45:45:838 	Experiment 7 in progress
+11:56:18:533 	Experiment 8 in progress
+12:08:19:320 	Experiment 9 in progress
+12:18:54:966 	Experiment 10 in progress
+12:28:38:197 Total time for 10 GAN_FNN_e30 experiments 46914.50351476669
+12:28:38:557 Starting training on GAN_FNN_e40
+12:28:38:557 	Experiment 1 in progress
+12:39:41:016 	Experiment 2 in progress
+12:50:39:688 	Experiment 3 in progress
+13:01:34:855 	Experiment 4 in progress
+13:12:20:799 	Experiment 5 in progress
+13:22:27:690 	Experiment 6 in progress
+13:32:02:371 	Experiment 7 in progress
+13:41:10:405 	Experiment 8 in progress
+13:50:21:094 	Experiment 9 in progress
+13:59:28:416 	Experiment 10 in progress
+14:08:32:447 Total time for 10 GAN_FNN_e40 experiments 5993.890156984329
+14:08:32:620 Starting training on GAN_FNN_e50
+14:08:32:620 	Experiment 1 in progress
+14:19:07:761 	Experiment 2 in progress
+14:28:41:533 	Experiment 3 in progress
+14:38:10:156 	Experiment 4 in progress
+14:47:36:151 	Experiment 5 in progress
+14:56:58:644 	Experiment 6 in progress
+15:06:16:524 	Experiment 7 in progress
+15:15:47:113 	Experiment 8 in progress
+15:25:59:701 	Experiment 9 in progress
+15:35:38:226 	Experiment 10 in progress
+15:44:55:515 Total time for 10 GAN_FNN_e50 experiments 5782.895178079605
+15:44:55:693 Starting training on GAN_FNN_e60
+15:44:55:693 	Experiment 1 in progress
+15:53:57:742 	Experiment 2 in progress
+16:03:19:748 	Experiment 3 in progress
+16:12:50:546 	Experiment 4 in progress
+16:22:23:197 	Experiment 5 in progress
+16:31:53:023 	Experiment 6 in progress
+16:41:17:911 	Experiment 7 in progress
+16:50:37:897 	Experiment 8 in progress
+17:00:09:474 	Experiment 9 in progress
+17:09:36:095 	Experiment 10 in progress
+17:18:49:812 Total time for 10 GAN_FNN_e60 experiments 5634.118447065353
+17:18:49:988 Starting training on GAN_FNN_e70
+17:18:49:988 	Experiment 1 in progress
+17:28:12:554 	Experiment 2 in progress
+17:37:32:275 	Experiment 3 in progress
+17:48:28:384 	Experiment 4 in progress
+17:57:45:206 	Experiment 5 in progress
+18:06:54:053 	Experiment 6 in progress
+18:16:06:096 	Experiment 7 in progress
+18:25:17:863 	Experiment 8 in progress
+18:34:29:984 	Experiment 9 in progress
+18:43:44:595 	Experiment 10 in progress
+18:52:55:134 Total time for 10 GAN_FNN_e70 experiments 5645.146176815033
+18:52:55:276 Starting training on GAN_FNN_e80
+18:52:55:276 	Experiment 1 in progress
+19:01:44:772 	Experiment 2 in progress
+19:10:52:275 	Experiment 3 in progress
+19:19:56:612 	Experiment 4 in progress
+19:28:58:108 	Experiment 5 in progress
+19:37:57:370 	Experiment 6 in progress
+19:46:56:655 	Experiment 7 in progress
+19:55:58:984 	Experiment 8 in progress
+20:04:57:363 	Experiment 9 in progress
+20:13:56:508 	Experiment 10 in progress
+20:22:59:802 Total time for 10 GAN_FNN_e80 experiments 5404.525992870331
+20:22:59:943 Starting training on GAN_FNN_e90
+20:22:59:943 	Experiment 1 in progress
+20:31:49:834 	Experiment 2 in progress
+20:41:09:608 	Experiment 3 in progress
+20:50:20:879 	Experiment 4 in progress
+20:59:30:123 	Experiment 5 in progress
+21:08:48:623 	Experiment 6 in progress
+21:18:09:376 	Experiment 7 in progress
+21:27:22:681 	Experiment 8 in progress
+21:36:39:019 	Experiment 9 in progress
+21:45:50:921 	Experiment 10 in progress
+21:55:15:926 Total time for 10 GAN_FNN_e90 experiments 5535.983681440353
+21:55:16:052 Starting training on SMOTER_regular
+21:55:16:052 	Experiment 1 in progress
+22:04:15:832 	Experiment 2 in progress
+22:13:12:575 	Experiment 3 in progress
+22:22:13:613 	Experiment 4 in progress
+22:31:12:457 	Experiment 5 in progress
+22:40:11:982 	Experiment 6 in progress
+22:49:09:771 	Experiment 7 in progress
+22:58:11:874 	Experiment 8 in progress
+23:07:11:720 	Experiment 9 in progress
+23:16:12:398 	Experiment 10 in progress
+23:25:14:533 Total time for 10 SMOTER_regular experiments 5398.480838060379

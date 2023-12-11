@@ -1,0 +1,41 @@
+00:25:42:806 Using data from: london_merged.csv
+00:25:42:806 Using feature variables: ['Bike Share Count'] to predict target variable: 'Bike Share Count'
+00:25:42:812 Embedding steps in: 5 and steps out: 5
+00:25:42:812 Split dataset with training ratio: 0.7
+00:25:42:812 Split data shapes:
+	 X_train: (12183, 5, 1)
+	 Y_train: (12183, 5)
+	 X_test: (5222, 5, 1)
+	 Y_test: (5222, 5)
+	 k_X: (12183, 10)
+00:25:42:827 Relevance function PCHIPRelevance used with threshold: 0.7
+00:25:42:827 Relevance 11480 common values, 703 relevant values
+00:25:43:436 Training CNN GAN with 1 epochs
+00:25:47:195 Training FNN GAN with 1 epochs
+00:25:49:868 Finished SMOTER_bin resample
+00:25:52:669 Finished SMOTER_bin_t resample
+00:25:55:387 Finished SMOTER_bin_r resample
+00:25:58:175 Finished SMOTER_bin_tr resample
+00:26:13:591 Finished GAN_CNN_e0
+00:26:13:620 Finished GAN_FNN_e0
+00:26:13:626 Finished SMOTER_regular
+00:26:13:649 Resampled sizes: 
++---------------------+----------------+--------------+---------+
+| Resampling Method   |   Num Relevant |   Num Common |   Total |
++=====================+================+==============+=========+
+| SMOTER_bin          |          11460 |        11480 |   22940 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_t        |          11460 |        11480 |   22940 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_r        |          11460 |        11480 |   22940 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_tr       |          11460 |        11480 |   22940 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e0          |          11460 |        11480 |   22940 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e0          |          11077 |        11863 |   22940 |
++---------------------+----------------+--------------+---------+
+| SMOTER_regular      |          11480 |        11480 |   22960 |
++---------------------+----------------+--------------+---------+
+| no_resample         |            703 |        11480 |   12183 |
++---------------------+----------------+--------------+---------+

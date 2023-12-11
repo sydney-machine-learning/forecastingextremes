@@ -1,0 +1,12 @@
+21:44:25:552 Using data from: acfinance.txt
+21:44:25:552 Using feature variables: ['ACIW closing stock prices'] to predict target variable: 'ACIW closing stock prices'
+21:44:25:559 Embedding steps in: 5 and steps out: 5
+21:44:25:559 Split dataset with training ratio: 0.7
+21:44:25:560 Split data shapes:
+	 X_train: (553, 5, 1)
+	 Y_train: (553, 5)
+	 X_test: (238, 5, 1)
+	 Y_test: (238, 5)
+	 k_X: (553, 10)
+21:44:25:573 Relevance function PCHIPRelevance used with threshold: 0.9
+21:44:25:573 Relevance 536 common values, 17 relevant values

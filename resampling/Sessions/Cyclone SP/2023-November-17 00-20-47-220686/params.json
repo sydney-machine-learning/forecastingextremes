@@ -1,0 +1,38 @@
+{
+    "loadedModels": {
+        "GanCnnDir": null,
+        "GanFnnDir": null,
+        "ForecastDir": null
+    },
+    "importingData": {
+        "dataFile": "cyclone_speed_southpacific.csv",
+        "targetVar": "Speed(knots)",
+        "featVars": [
+            "Speed(knots)"
+        ]
+    },
+    "prepData": {
+        "nStepsIn": 5,
+        "nStepsOut": 5,
+        "splitRatio": 0.7
+    },
+    "relevanceFunc": {
+        "funcName": "PCHIP",
+        "funcParams": {
+            "percentages": [
+                25,
+                95,
+                99
+            ],
+            "rels": [
+                0.0,
+                0.75,
+                1.0
+            ]
+        }
+    },
+    "relevance": {
+        "relThresh": 0.7,
+        "exThresh": 0.6416279168254415
+    }
+}

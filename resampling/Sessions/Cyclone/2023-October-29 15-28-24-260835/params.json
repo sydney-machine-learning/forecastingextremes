@@ -1,0 +1,45 @@
+{
+    "loadedModels": {
+        "GanCnnDir": null,
+        "GanFnnDir": null,
+        "ForecastDir": null
+    },
+    "importingData": {
+        "dataFile": "cyclone_speed.csv",
+        "targetVar": "Speed(knots)",
+        "featVars": [
+            "Speed(knots)"
+        ]
+    },
+    "prepData": {
+        "nStepsIn": 5,
+        "nStepsOut": 5,
+        "splitRatio": 0.7
+    },
+    "relevanceFunc": {
+        "funcName": "PCHIP",
+        "funcParams": {
+            "percentages": [
+                25,
+                95,
+                99
+            ],
+            "rels": [
+                0.0,
+                0.75,
+                1.0
+            ]
+        }
+    },
+    "relevance": {
+        "relThresh": 0.7,
+        "exThresh": 0.7072169848810046
+    },
+    "GAN": {
+        "nEpochs": 120,
+        "batchSize": 128
+    },
+    "SMOTE": {
+        "kNeighbors": 3
+    }
+}

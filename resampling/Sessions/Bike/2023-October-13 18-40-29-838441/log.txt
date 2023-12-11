@@ -1,0 +1,88 @@
+18:40:29:848 Using data from: london_merged.csv
+18:40:29:849 Using feature variables: ['Bike Share Count'] to predict target variable: 'Bike Share Count'
+18:40:29:873 Embedding steps in: 5 and steps out: 5
+18:40:29:873 Split dataset with training ratio: 0.7
+18:40:29:874 Split data shapes:
+	 X_train: (12183, 5, 1)
+	 Y_train: (12183, 5)
+	 X_test: (5222, 5, 1)
+	 Y_test: (5222, 5)
+	 k_X: (12183, 10)
+18:40:29:913 Relevance function PCHIPRelevance used with threshold: 0.75
+18:40:29:914 Relevance 11573 common values, 610 relevant values
+18:40:31:702 Training CNN GAN with 11 epochs
+18:42:48:586 Training FNN GAN with 11 epochs
+18:42:52:825 Finished SMOTER_bin resample
+18:42:55:297 Finished SMOTER_bin_t resample
+18:42:57:847 Finished SMOTER_bin_r resample
+18:43:00:488 Finished SMOTER_bin_tr resample
+18:43:50:524 Finished GAN_CNN_e0
+18:44:39:340 Finished GAN_CNN_e10
+18:44:39:418 Finished GAN_FNN_e0
+18:44:39:496 Finished GAN_FNN_e10
+18:44:39:512 Finished SMOTER_regular
+18:44:39:616 Resampled sizes: 
++---------------------+----------------+--------------+---------+
+| Resampling Method   |   Num Relevant |   Num Common |   Total |
++=====================+================+==============+=========+
+| SMOTER_bin          |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_t        |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_r        |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_tr       |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e0          |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e10         |            610 |        22877 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e0          |           8762 |        14725 |   23487 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e10         |           9818 |        13669 |   23487 |
++---------------------+----------------+--------------+---------+
+| SMOTER_regular      |          11914 |        11573 |   23487 |
++---------------------+----------------+--------------+---------+
+| no_resample         |            610 |        11573 |   12183 |
++---------------------+----------------+--------------+---------+
+18:44:51:580 Starting forecasting experiments with num_exps: 2 and epochs: 1
+18:44:51:755 Starting training on no_resample
+18:44:51:755 	Experiment 1 in progress
+18:44:55:311 	Experiment 2 in progress
+18:44:56:828 Total time for 2 no_resample experiments 5.073207378387451
+18:44:56:942 Starting training on SMOTER_bin
+18:44:56:944 	Experiment 1 in progress
+18:45:01:296 	Experiment 2 in progress
+18:45:03:834 Total time for 2 SMOTER_bin experiments 6.8918235301971436
+18:45:03:950 Starting training on SMOTER_bin_t
+18:45:03:952 	Experiment 1 in progress
+18:45:08:267 	Experiment 2 in progress
+18:45:10:941 Total time for 2 SMOTER_bin_t experiments 6.9909985065460205
+18:45:11:064 Starting training on SMOTER_bin_r
+18:45:11:066 	Experiment 1 in progress
+18:45:15:429 	Experiment 2 in progress
+18:45:17:948 Total time for 2 SMOTER_bin_r experiments 6.884128570556641
+18:45:18:070 Starting training on SMOTER_bin_tr
+18:45:18:071 	Experiment 1 in progress
+18:45:22:553 	Experiment 2 in progress
+18:45:25:137 Total time for 2 SMOTER_bin_tr experiments 7.067089319229126
+18:45:25:247 Starting training on GAN_CNN_e0
+18:45:25:249 	Experiment 1 in progress
+18:45:29:452 	Experiment 2 in progress
+18:45:32:107 Total time for 2 GAN_CNN_e0 experiments 6.859102010726929
+18:45:32:221 Starting training on GAN_CNN_e10
+18:45:32:222 	Experiment 1 in progress
+18:45:36:514 	Experiment 2 in progress
+18:45:39:051 Total time for 2 GAN_CNN_e10 experiments 6.830634832382202
+18:45:39:155 Starting training on GAN_FNN_e0
+18:45:39:156 	Experiment 1 in progress
+18:45:43:420 	Experiment 2 in progress
+18:45:45:977 Total time for 2 GAN_FNN_e0 experiments 6.822437524795532
+18:45:46:088 Starting training on GAN_FNN_e10
+18:45:46:088 	Experiment 1 in progress
+18:45:50:606 	Experiment 2 in progress
+18:45:53:205 Total time for 2 GAN_FNN_e10 experiments 7.1171557903289795
+18:45:53:317 Starting training on SMOTER_regular
+18:45:53:319 	Experiment 1 in progress
+18:45:57:698 	Experiment 2 in progress
+18:46:00:290 Total time for 2 SMOTER_regular experiments 6.9723265171051025

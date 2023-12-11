@@ -1,0 +1,41 @@
+00:26:01:814 Using data from: lorenz.dat.txt
+00:26:01:816 Using feature variables: ['Simulated Lorenz Values'] to predict target variable: 'Simulated Lorenz Values'
+00:26:01:860 Embedding steps in: 5 and steps out: 5
+00:26:01:860 Split dataset with training ratio: 0.7
+00:26:01:860 Split data shapes:
+	 X_train: (11462, 5, 1)
+	 Y_train: (11462, 5)
+	 X_test: (4913, 5, 1)
+	 Y_test: (4913, 5)
+	 k_X: (11462, 10)
+00:26:01:911 Relevance function PCHIPRelevance used with threshold: 0.7
+00:26:01:913 Relevance 10669 common values, 793 relevant values
+00:26:03:192 Training CNN GAN with 1 epochs
+00:26:11:240 Training FNN GAN with 1 epochs
+00:26:19:823 Finished SMOTER_bin resample
+00:26:22:848 Finished SMOTER_bin_t resample
+00:26:25:601 Finished SMOTER_bin_r resample
+00:26:28:594 Finished SMOTER_bin_tr resample
+00:26:39:876 Finished GAN_CNN_e0
+00:26:39:901 Finished GAN_FNN_e0
+00:26:39:906 Finished SMOTER_regular
+00:26:39:927 Resampled sizes: 
++---------------------+----------------+--------------+---------+
+| Resampling Method   |   Num Relevant |   Num Common |   Total |
++=====================+================+==============+=========+
+| SMOTER_bin          |          10622 |        10669 |   21291 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_t        |          10622 |        10669 |   21291 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_r        |          10622 |        10669 |   21291 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_tr       |          10622 |        10669 |   21291 |
++---------------------+----------------+--------------+---------+
+| GAN_CNN_e0          |           6906 |        14385 |   21291 |
++---------------------+----------------+--------------+---------+
+| GAN_FNN_e0          |            793 |        20498 |   21291 |
++---------------------+----------------+--------------+---------+
+| SMOTER_regular      |          10669 |        10669 |   21338 |
++---------------------+----------------+--------------+---------+
+| no_resample         |            793 |        10669 |   11462 |
++---------------------+----------------+--------------+---------+

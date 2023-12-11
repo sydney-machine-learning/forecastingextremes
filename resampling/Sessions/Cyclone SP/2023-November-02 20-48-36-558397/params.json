@@ -1,0 +1,19 @@
+{
+    "loadedModels": {
+        "GanCnnDir": null,
+        "GanFnnDir": null,
+        "ForecastDir": null
+    },
+    "importingData": {
+        "dataFile": "cyclone_speed_southpacific.csv",
+        "targetVar": "Speed(knots)",
+        "featVars": [
+            "Speed(knots)"
+        ]
+    },
+    "prepData": {
+        "nStepsIn": 5,
+        "nStepsOut": 5,
+        "splitRatio": 0.7
+    }
+}

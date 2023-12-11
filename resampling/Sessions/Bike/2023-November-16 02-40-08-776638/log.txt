@@ -1,0 +1,12 @@
+02:40:08:781 Using data from: lorenz.dat.txt
+02:40:08:782 Using feature variables: ['Simulated Lorenz Values'] to predict target variable: 'Simulated Lorenz Values'
+02:40:08:793 Embedding steps in: 5 and steps out: 5
+02:40:08:793 Split dataset with training ratio: 0.7
+02:40:08:793 Split data shapes:
+	 X_train: (11462, 5, 1)
+	 Y_train: (11462, 5)
+	 X_test: (4913, 5, 1)
+	 Y_test: (4913, 5)
+	 k_X: (11462, 10)
+02:40:08:807 Relevance function PCHIPRelevance used with threshold: 0.7
+02:40:08:807 Relevance 10669 common values, 793 relevant values

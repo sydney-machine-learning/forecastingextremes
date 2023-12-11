@@ -1,0 +1,3 @@
+london_merged: https://www.kaggle.com/code/kaanboke/plotly-beginner-friendly-london-bike
+
+the rest: https://github.com/sydney-machine-learning/deeplearning_timeseries/tree/master/data

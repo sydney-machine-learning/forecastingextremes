@@ -1,0 +1,12 @@
+21:46:17:155 Using data from: henon.dat.txt
+21:46:17:156 Using feature variables: ['Simulated Henon Values'] to predict target variable: 'Simulated Henon Values'
+21:46:17:166 Embedding steps in: 5 and steps out: 5
+21:46:17:167 Split dataset with training ratio: 0.7
+21:46:17:167 Split data shapes:
+	 X_train: (11462, 5, 1)
+	 Y_train: (11462, 5)
+	 X_test: (4913, 5, 1)
+	 Y_test: (4913, 5)
+	 k_X: (11462, 10)
+21:46:17:195 Relevance function PCHIPRelevance used with threshold: 0.9
+21:46:17:195 Relevance 11170 common values, 292 relevant values

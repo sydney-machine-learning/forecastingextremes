@@ -1,0 +1,38 @@
+{
+    "loadedModels": {
+        "GanCnnDir": null,
+        "GanFnnDir": null,
+        "ForecastDir": null
+    },
+    "importingData": {
+        "dataFile": "henon.dat.txt",
+        "targetVar": "Simulated Henon Values",
+        "featVars": [
+            "Simulated Henon Values"
+        ]
+    },
+    "prepData": {
+        "nStepsIn": 5,
+        "nStepsOut": 5,
+        "splitRatio": 0.7
+    },
+    "relevanceFunc": {
+        "funcName": "PCHIP",
+        "funcParams": {
+            "percentages": [
+                25,
+                95,
+                99
+            ],
+            "rels": [
+                0.0,
+                0.75,
+                1.0
+            ]
+        }
+    },
+    "relevance": {
+        "relThresh": 0.9,
+        "exThresh": 0.9889925379425359
+    }
+}

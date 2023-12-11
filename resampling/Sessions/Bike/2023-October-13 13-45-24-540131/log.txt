@@ -1,0 +1,52 @@
+13:45:24:551 Using data from: london_merged.csv
+13:45:24:551 Using feature variables: ['Bike Share Count'] to predict target variable: 'Bike Share Count'
+13:45:24:563 Embedding steps in: 5 and steps out: 2
+13:45:24:564 Split dataset with training ratio: 0.7
+13:45:24:564 Split data shapes:
+	 X_train: (12185, 5, 1)
+	 Y_train: (12185, 2)
+	 X_test: (5223, 5, 1)
+	 Y_test: (5223, 2)
+	 k_X: (12185, 7)
+13:45:24:590 Relevance function PCHIPRelevance used with threshold: 0.92
+13:45:24:590 Relevance 11867 common values, 318 relevant values
+13:45:28:122 Finished SMOTER_bin resample
+13:45:29:841 Finished SMOTER_bin_t resample
+13:45:31:521 Finished SMOTER_bin_r resample
+13:45:33:459 Finished SMOTER_bin_tr resample
+13:45:33:463 Resampled sizes: 
++---------------------+----------------+--------------+---------+
+| Resampling Method   |   Num Relevant |   Num Common |   Total |
++=====================+================+==============+=========+
+| SMOTER_bin          |          12137 |        11867 |   24004 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_t        |          12137 |        11867 |   24004 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_r        |          12137 |        11867 |   24004 |
++---------------------+----------------+--------------+---------+
+| SMOTER_bin_tr       |          12137 |        11867 |   24004 |
++---------------------+----------------+--------------+---------+
+| no_resample         |            318 |        11867 |   12185 |
++---------------------+----------------+--------------+---------+
+13:45:33:508 Starting forecasting experiments with num_exps: 2 and epochs: 1
+13:45:33:708 Starting training on no_resample
+13:45:33:711 	Experiment 1 in progress
+13:45:37:264 	Experiment 2 in progress
+13:45:38:684 Total time for 2 no_resample experiments 4.975631475448608
+13:45:38:794 Starting training on SMOTER_bin
+13:45:38:794 	Experiment 1 in progress
+13:45:42:785 	Experiment 2 in progress
+13:45:45:303 Total time for 2 SMOTER_bin experiments 6.509054899215698
+13:45:45:417 Starting training on SMOTER_bin_t
+13:45:45:418 	Experiment 1 in progress
+13:45:49:709 	Experiment 2 in progress
+13:45:52:227 Total time for 2 SMOTER_bin_t experiments 6.810496091842651
+13:45:52:339 Starting training on SMOTER_bin_r
+13:45:52:340 	Experiment 1 in progress
+13:45:57:200 	Experiment 2 in progress
+13:45:59:785 Total time for 2 SMOTER_bin_r experiments 7.445912837982178
+13:45:59:896 Starting training on SMOTER_bin_tr
+13:45:59:897 	Experiment 1 in progress
+13:46:04:040 	Experiment 2 in progress
+13:46:06:593 Total time for 2 SMOTER_bin_tr experiments 6.696963548660278
+13:47:21:940 Saving resample results numpy style

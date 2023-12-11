@@ -1,0 +1,12 @@
+23:38:11:013 Using data from: london_merged.csv
+23:38:11:013 Using feature variables: ['Bike Share Count'] to predict target variable: 'Bike Share Count'
+23:38:11:018 Embedding steps in: 5 and steps out: 5
+23:38:11:018 Split dataset with training ratio: 0.7
+23:38:11:018 Split data shapes:
+	 X_train: (12183, 5, 1)
+	 Y_train: (12183, 5)
+	 X_test: (5222, 5, 1)
+	 Y_test: (5222, 5)
+	 k_X: (12183, 10)
+23:38:11:031 Relevance function PCHIPRelevance used with threshold: 0.7
+23:38:11:032 Relevance 11480 common values, 703 relevant values

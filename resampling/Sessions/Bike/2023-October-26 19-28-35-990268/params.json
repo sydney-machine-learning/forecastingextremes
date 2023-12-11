@@ -1,0 +1,64 @@
+{
+    "loadedModels": {
+        "GanCnnDir": null,
+        "GanFnnDir": null,
+        "ForecastDir": null
+    },
+    "importingData": {
+        "dataFile": "lorenz.dat.txt",
+        "targetVar": "Simulated Lorenz Values",
+        "featVars": [
+            "Simulated Lorenz Values"
+        ]
+    },
+    "prepData": {
+        "nStepsIn": 5,
+        "nStepsOut": 5,
+        "splitRatio": 0.7
+    },
+    "relevanceFunc": {
+        "funcName": "PCHIP",
+        "funcParams": {
+            "percentages": [
+                25,
+                95,
+                99
+            ],
+            "rels": [
+                0.0,
+                0.75,
+                1.0
+            ]
+        }
+    },
+    "relevance": {
+        "relThresh": 0.8,
+        "exThresh": 0.8832318727662211
+    },
+    "GAN": {
+        "nEpochs": 120,
+        "batchSize": 128
+    },
+    "SMOTE": {
+        "kNeighbors": 3
+    },
+    "Evaluator": {
+        "RMSE": {},
+        "RMSERare": {},
+        "Utility": {
+            "m": 0.5
+        },
+        "CaseWeight": {
+            "m": 0.5
+        },
+        "PrecisionRecall": {},
+        "FScore": {
+            "beta": 0.5
+        }
+    },
+    "Forecasting": {
+        "NumExp": 10,
+        "nEpochs": 100,
+        "hidden": 100
+    }
+}
